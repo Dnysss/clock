@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #343746;
+}
+
+main {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    min-width: 600px;
+    min-height: 600px;
+    background-color: #f0f8ff;
+    border-radius: 600px;
+    border: 15px groove #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+    transform: rotate();
+}
+
+.num {
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+    transform: rotate();
+}
+
+.number-1 {
+    transform: rotate(30deg);
+}
+
+
+.number-2 {
+    transform: rotate(60deg);
+}
+
+.number-3 {
+    transform: rotate(90deg);
+}
+
+.number-4 {
+    transform: rotate(120deg);
+}
+
+.number-5 {
+    transform: rotate(150deg);
+}
+
+.number-6 {
+    transform: rotate(180deg);
+}
+
+.number-7 {
+    transform: rotate(210deg);
+}
+
+.number-8 {
+    transform: rotate(240deg);
+}
+
+.number-9 {
+    transform: rotate(270deg);
+}
+
+.number-10 {
+    transform: rotate(300deg);
+}
+
+.number-11 {
+    transform: rotate(330deg);
+}
+
+.number-12 {
+    transform: rotate(360deg);
+}
+
+.second-hand {
+    width: 5px;
+    height: 230px;
+    background-color: #a52a2a;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.minute-hand {
+    width: 8px;
+    height: 200px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.hour-hand {
+    width: 13px;
+    height: 150px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 13px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #a52a2a;
+    position: absolute;
+}
+
+.traco1 {
+    transform: rotate(6deg);
+}
+
+.traco2 {
+    transform: rotate(12deg);
+}
+
+.traco3 {
+    transform: rotate(18deg);
+}
+
+.traco4 {
+    transform: rotate(24deg);
+}
+
+.traco5 {
+    font-size: 50px;
+    transform: rotate(30deg);
+}
+
+.traco6 {
+    transform: rotate(36deg);
+}
+
+.traco7 {
+    transform: rotate(42deg);
+}
+
+.traco8 {
+    transform: rotate(48deg);
+}
+
+.traco9 {
+    transform: rotate(54deg);
+}
+
+.traco10 {
+    font-size: 50px;
+    transform: rotate(60deg);
+}
+
+.traco11 {
+    transform: rotate(66deg);
+}
+
+.traco12 {
+    transform: rotate(72deg);
+}
+
+.traco13 {
+    transform: rotate(78deg);
+}
+
+.traco14 {
+    transform: rotate(84deg);
+}
+
+.traco15 {
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+
+.traco16 {
+    transform: rotate(96deg);
+}
+
+.traco17 {
+    transform: rotate(102deg);
+}
+
+.traco18 {
+    transform: rotate(108deg);
+}
+
+.traco19 {
+    transform: rotate(114deg);
+}
+
+.traco20 {
+    font-size: 50px;
+    transform: rotate(120deg);
+}
+
+.traco21 {
+    transform: rotate(126deg);
+}
+
+.traco22 {
+    transform: rotate(132deg);
+}
+
+.traco23 {
+    transform: rotate(138deg);
+}
+
+.traco24 {
+    transform: rotate(144deg);
+}
+
+.traco25 {
+    font-size: 50px;
+    transform: rotate(150deg);
+}
+
+.traco26 {
+    transform: rotate(156deg);
+}
+
+.traco27 {
+    transform: rotate(162deg);
+}
+
+.traco28 {
+    transform: rotate(168deg);
+}
+
+.traco29 {
+    transform: rotate(174deg);
+}
+
+.traco30 {
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+.traco31 {
+    transform: rotate(186deg);
+}
+
+.traco32 {
+    transform: rotate(192deg);
+}
+
+.traco33 {
+    transform: rotate(198deg);
+}
+
+.traco34 {
+    transform: rotate(204deg);
+}
+
+.traco35 {
+    font-size: 50px;
+    transform: rotate(210deg);
+}
+
+.traco36 {
+    transform: rotate(216deg);
+}
+
+.traco37 {
+    transform: rotate(222deg);
+}
+
+.traco38 {
+    transform: rotate(228deg);
+}
+
+.traco39 {
+    transform: rotate(234deg);
+}
+
+.traco40 {
+    font-size: 50px;
+    transform: rotate(240deg);
+}
+
+.traco41 {
+    transform: rotate(246deg);
+}
+
+.traco42 {
+    transform: rotate(252deg);
+}
+
+.traco43 {
+    transform: rotate(258deg);
+}
+
+.traco44 {
+    transform: rotate(264deg);
+}
+
+.traco45 {
+    font-size: 50px;
+    transform: rotate(270deg);
+}
+
+.traco46 {
+    transform: rotate(276deg);
+}
+
+.traco47 {
+    transform: rotate(282deg);
+}
+
+.traco48 {
+    transform: rotate(288deg);
+}
+
+.traco49 {
+    transform: rotate(294deg);
+}
+
+.traco50 {
+    font-size: 50px;
+    font-size: 50px;
+    transform: rotate(300deg);
+}
+
+.traco51 {
+    transform: rotate(306deg);
+}
+
+.traco52 {
+    transform: rotate(312deg);
+}
+
+.traco53 {
+    transform: rotate(318deg);
+}
+
+.traco54 {
+    transform: rotate(324deg);
+}
+
+.traco55 {
+    font-size: 50px;
+    transform: rotate(330deg);
+}
+
+.traco56 {
+    transform: rotate(336deg);
+}
+
+.traco57 {
+    transform: rotate(342deg);
+}
+
+.traco58 {
+    transform: rotate(348deg);
+}
+
+.traco59 {
+    transform: rotate(354deg);
+}
+
+.traco60 {
+    font-size: 50px;
+}
